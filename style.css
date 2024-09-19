@@ -1,0 +1,33 @@
+.articles-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+img {
+  height: 200px;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media (max-width: 770px) {
+  .articles-section {
+    flex-direction: column;
+  }
+}
